@@ -16,9 +16,11 @@ namespace KAGConfigEx2
     public partial class Form1 : Form
     {
         string config_file_name;
+        string[] args;
 
-        public Form1()
+        public Form1(string[] args)
         {
+            this.args = args;
             InitializeComponent();
         }
 
@@ -1054,7 +1056,7 @@ namespace KAGConfigEx2
 
         //property
 
-        #region property 分段一
+        #region property 基础设定
 
         string title 
         {
@@ -1835,6 +1837,16 @@ namespace KAGConfigEx2
         //comboBox下拉菜单设置
         private void Form1_Load(object sender, EventArgs e)
         {
+            if (args.Length != 0)
+            {
+                config_file_name = args[0];
+                loadTjs(config_file_name);
+                tabControl1.Enabled = true;
+                button1.Enabled = true;
+                label19.Text = config_file_name;
+
+            }
+
             //缩略图格式
             ArrayList al = new ArrayList();
             al.Add(new TextAndValue("256色位图", "8"));
