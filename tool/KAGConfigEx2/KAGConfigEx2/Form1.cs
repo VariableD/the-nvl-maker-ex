@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -1849,8 +1849,9 @@ namespace KAGConfigEx2
 
             //縮略圖格式
             ArrayList al = new ArrayList();
-            al.Add(new TextAndValue("256色位圖", "8"));
             al.Add(new TextAndValue("24位色位圖", "24"));
+            al.Add(new TextAndValue("256色位圖", "8"));
+
 
             comboBox6.DataSource = al;
             comboBox6.DisplayMember = "DisplayText";
