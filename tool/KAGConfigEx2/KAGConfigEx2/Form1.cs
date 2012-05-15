@@ -1849,8 +1849,8 @@ namespace KAGConfigEx2
 
             //缩略图格式
             ArrayList al = new ArrayList();
-            al.Add(new TextAndValue("256色位图", "8"));
             al.Add(new TextAndValue("24位色位图", "24"));
+            al.Add(new TextAndValue("256色位图", "8"));
 
             comboBox6.DataSource = al;
             comboBox6.DisplayMember = "DisplayText";
