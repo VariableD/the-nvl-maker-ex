@@ -24,7 +24,7 @@ namespace KAGConfigEx2
             InitializeComponent();
         }
 
-        //拖动文件处理
+        //拖動文件處理
         private void Form1_DragEnter(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.All;
@@ -45,7 +45,7 @@ namespace KAGConfigEx2
                 //取得文件名
                 if (Path.GetFileName(files[0]) == "Config.tjs")
                 {
-                    //记录文件名并载入config.tjs
+                    //記錄文件名並載入config.tjs
                     config_file_name = files[0];
                     loadTjs(config_file_name);
                     tabControl1.Enabled = true;
@@ -57,7 +57,7 @@ namespace KAGConfigEx2
             }
         }
 
-        //读取config.tjs并进行处理
+        //讀取config.tjs並進行處理
         private void loadTjs(string filename)
         {
             StreamReader objReader = new StreamReader(filename);
@@ -75,7 +75,7 @@ namespace KAGConfigEx2
             foreach (string sOutput in arrText)
             {
                 Regex exp = new Regex("^;");
-                //判断读入的是否是参数（行头有;）
+                //判斷讀入的是否是參數（行頭有;）
                 if (exp.IsMatch(sOutput))
                 {
                     getelm(sOutput);
@@ -85,7 +85,7 @@ namespace KAGConfigEx2
 
         }
 
-        //写入函数
+        //寫入函數
         private ArrayList writeTjs(string filename)
         {
             StreamReader objReader = new StreamReader(filename);
@@ -105,7 +105,7 @@ namespace KAGConfigEx2
                 string sOutput = arrText[i].ToString();
 
                 Regex exp = new Regex("^;");
-                //判断读入的是否是参数（行头有;）
+                //判斷讀入的是否是參數（行頭有;）
                 if (exp.IsMatch(sOutput))
                 {
                     arrText[i]=setelm(sOutput);
@@ -118,17 +118,17 @@ namespace KAGConfigEx2
 
         }
 
-        //写入参数
+        //寫入參數
         private string setelm(string line)
         {
-            //拆分处理
+            //拆分處理
             Regex r = new Regex(";|=");
             string[] s = r.Split(line);
 
             string a = s[1].Trim();
             string b = s[2].Trim();
 
-            #region 根据能识别的参数名进行处理
+            #region 根據能識別的參數名進行處理
 
             switch (a)
             {
@@ -162,7 +162,7 @@ namespace KAGConfigEx2
                 case "thumbnailDepth":
                     b = thumbnailDepth.ToString();
                     break;
-                //savedata所在位置，如果有特殊路径参数，则不加引号
+                //savedata所在位置，如果有特殊路徑參數，則不加引號
                 case "saveDataLocation":
                     if (saveDataLocation.Contains(".")) b = saveDataLocation;
                     else b = "\"" + saveDataLocation + "\"";
@@ -222,7 +222,7 @@ namespace KAGConfigEx2
                     b = autoModeLineWaits_slow.ToString();
                     break;
 
-                //鼠标文件是否为文件名
+                //鼠標文件是否為文件名
                 case "cursorDefault":
                     if (cursorDefault.Contains(".")) b =  "\"" + cursorDefault + "\"";
                     else b = cursorDefault;
@@ -545,11 +545,11 @@ namespace KAGConfigEx2
             }
             #endregion
 
-            //因为kr不认识大写的true/false，强制转换小写
+            //因為kr不認識大寫的true/false，強制轉換小寫
             if (b == "True") b = "true";
             else if (b == "False") b = "false";
 
-            //处理完毕以后，返回完整的一行内容
+            //處理完畢以後，返回完整的一行內容
             string c=";" + a + " = " + b + ";" + s[3];
             //Console.WriteLine(c);
             return c;
@@ -557,15 +557,15 @@ namespace KAGConfigEx2
 
         }
 
-        //读入参数
+        //讀入參數
         private void getelm(string line)
         {
             //Console.WriteLine(line);
-            //拆分处理
+            //拆分處理
             Regex r = new Regex(";|=");
             string[] s = r.Split(line);
             
-            //去掉双引号后取值
+            //去掉雙引號後取值
             s[2]=s[2].Replace("\"","");
 
             string a = s[1].Trim();
@@ -574,7 +574,7 @@ namespace KAGConfigEx2
             switch (a)
             {
 
-                #region 系统设定
+                #region 系統設定
 
                 case "System.title":
                     title = b;
@@ -593,7 +593,7 @@ namespace KAGConfigEx2
                     break;
                 #endregion
 
-                #region 系统与存档
+                #region 系統與存檔
 
                 case "scWidth":
                     scWidth = Convert.ToInt32(b);
@@ -634,7 +634,7 @@ namespace KAGConfigEx2
                     break;
                 #endregion
 
-                #region 文字与等待速度
+                #region 文字與等待速度
 
                 case "chSpeeds.fast":
                     chSpeeds_fast = Convert.ToInt32(b);
@@ -680,7 +680,7 @@ namespace KAGConfigEx2
 
                 #endregion
 
-                #region 鼠标
+                #region 鼠標
                 case "cursorDefault":
                     cursorDefault = b;
                     break;
@@ -695,7 +695,7 @@ namespace KAGConfigEx2
                     break;
                 #endregion
 
-                #region 通过记录/震动
+                #region 通過記錄/震動
                 case "autoRecordPageShowing":
                     autoRecordPageShowing = Convert.ToBoolean(b);
                     break;
@@ -713,7 +713,7 @@ namespace KAGConfigEx2
 
                 #endregion
 
-                #region 音频、视频、图层
+                #region 音頻、視頻、圖層
                 case "numSEBuffers":
                     numSEBuffers = Convert.ToInt32(b);
                     break;
@@ -750,7 +750,7 @@ namespace KAGConfigEx2
 
                 #endregion
 
-                #region 存档、标签、菜单、WORLD
+                #region 存檔、標籤、菜單、WORLD
 
                 case "numBookMarks":
                     numBookMarks = Convert.ToInt32(b);
@@ -788,7 +788,7 @@ namespace KAGConfigEx2
 
                 #endregion
 
-                #region 菜单显示
+                #region 菜單顯示
 
                 case "menu.visible":
                     menu_visible = Convert.ToBoolean(b);
@@ -876,7 +876,7 @@ namespace KAGConfigEx2
 
                 #endregion
 
-                #region 文字层
+                #region 文字層
                 
                 case "layerType":
                     layerType = b;
@@ -995,7 +995,7 @@ namespace KAGConfigEx2
                 
                 #endregion
 
-                #region 音频
+                #region 音頻
 
                 case "type":
                     type = b;
@@ -1015,7 +1015,7 @@ namespace KAGConfigEx2
 
                 #endregion
 
-                #region 历史记录
+                #region 歷史記錄
 
                 case "fontName":
                     fontName = b;
@@ -1056,7 +1056,7 @@ namespace KAGConfigEx2
 
         //property
 
-        #region property 基础设定
+        #region property 基礎設定
 
         string title 
         {
@@ -1233,7 +1233,7 @@ namespace KAGConfigEx2
 
         #endregion
 
-        #region 鼠标
+        #region 鼠標
 
         string cursorDefault
         {
@@ -1258,7 +1258,7 @@ namespace KAGConfigEx2
 
         #endregion
 
-        #region 通过记录/震动
+        #region 通過記錄/震動
         bool autoRecordPageShowing
         {
             set { checkBox7.Checked = value; }
@@ -1290,9 +1290,9 @@ namespace KAGConfigEx2
 
         #endregion
 
-        #region 音频、视频、图层
+        #region 音頻、視頻、圖層
 
-        //图层缓冲数量
+        //圖層緩衝數量
         int numSEBuffers
         {
             set { numericUpDown2.Value = value; }
@@ -1309,7 +1309,7 @@ namespace KAGConfigEx2
             get { return Convert.ToInt32(numericUpDown4.Value); }
         }
 
-        //图层默认对齐位置
+        //圖層默認對齊位置
         int scPositionX_left
         {
             set { numericUpDown24.Value = value; }
@@ -1336,7 +1336,7 @@ namespace KAGConfigEx2
             get { return Convert.ToInt32(numericUpDown28.Value); }
         }
 
-        //消息层
+        //消息層
         int numMessageLayers
         {
             set { numericUpDown5.Value = value; }
@@ -1351,7 +1351,7 @@ namespace KAGConfigEx2
 
         #endregion
 
-        #region 存档、菜单
+        #region 存檔、菜單
 
         int numBookMarks
         {
@@ -1412,7 +1412,7 @@ namespace KAGConfigEx2
 
         #endregion
 
-        #region 菜单显示
+        #region 菜單顯示
         bool menu_visible
         {
             set { checkBox14.Checked = value; }
@@ -1524,7 +1524,7 @@ namespace KAGConfigEx2
         
         #endregion
 
-        #region 文字层
+        #region 文字層
         
         string layerType
         {
@@ -1721,7 +1721,7 @@ namespace KAGConfigEx2
 
         #endregion
 
-        #region 音频
+        #region 音頻
         
         string type
         {
@@ -1746,7 +1746,7 @@ namespace KAGConfigEx2
 
         #endregion
 
-        #region 历史记录
+        #region 歷史記錄
         
         string fontName
         {
@@ -1834,7 +1834,7 @@ namespace KAGConfigEx2
 
         }
 
-        //comboBox下拉菜单设置
+        //comboBox下拉菜單設置
         private void Form1_Load(object sender, EventArgs e)
         {
             if (args.Length != 0)
@@ -1847,45 +1847,46 @@ namespace KAGConfigEx2
 
             }
 
-            //缩略图格式
+            //縮略圖格式
             ArrayList al = new ArrayList();
-            al.Add(new TextAndValue("24位色位图", "24"));
-            al.Add(new TextAndValue("256色位图", "8"));
+            al.Add(new TextAndValue("24位色位圖", "24"));
+            al.Add(new TextAndValue("256色位圖", "8"));
+
 
             comboBox6.DataSource = al;
             comboBox6.DisplayMember = "DisplayText";
             comboBox6.ValueMember = "RealValue";
             
-            //档案格式
+            //檔案格式
             ArrayList a2 = new ArrayList();
             a2.Add(new TextAndValue("普通", ""));
-            a2.Add(new TextAndValue("压缩", "z"));
+            a2.Add(new TextAndValue("壓縮", "z"));
             a2.Add(new TextAndValue("加密", "c"));
 
             comboBox1.DataSource = a2;
             comboBox1.DisplayMember = "DisplayText";
             comboBox1.ValueMember = "RealValue";
             
-            //通过记录模式
+            //通過記錄模式
             ArrayList a3 = new ArrayList();
-            a3.Add(new TextAndValue("手动记录", "0"));
-            a3.Add(new TextAndValue("可存档标签处记录", "1"));
-            a3.Add(new TextAndValue("选项分支时记录", "2"));
+            a3.Add(new TextAndValue("手動記錄", "0"));
+            a3.Add(new TextAndValue("可存檔標籤處記錄", "1"));
+            a3.Add(new TextAndValue("選項分支時記錄", "2"));
 
             comboBox2.DataSource = a3;
             comboBox2.DisplayMember = "DisplayText";
             comboBox2.ValueMember = "RealValue";
             
-            //自动标签模式
+            //自動標籤模式
             ArrayList a4 = new ArrayList();
-            a4.Add(new TextAndValue("临时标签模式", "0"));
-            a4.Add(new TextAndValue("行号模式(推荐)", "1"));
+            a4.Add(new TextAndValue("臨時標籤模式", "0"));
+            a4.Add(new TextAndValue("行號模式(推薦)", "1"));
 
             comboBox3.DataSource = a4;
             comboBox3.DisplayMember = "DisplayText";
             comboBox3.ValueMember = "RealValue";
             
-            //对话框显示模式
+            //對話框顯示模式
             ArrayList a5 = new ArrayList();
             a5.Add(new TextAndValue("兼容模式", "ltAlpha"));
             a5.Add(new TextAndValue("特殊模式", "ltAddAlpha"));
@@ -1894,11 +1895,11 @@ namespace KAGConfigEx2
             comboBox4.DisplayMember = "DisplayText";
             comboBox4.ValueMember = "RealValue";
 
-            //音频格式
+            //音頻格式
             ArrayList a6 = new ArrayList();
             a6.Add(new TextAndValue("波形文件", "Wave"));
             a6.Add(new TextAndValue("MIDI文件", "MIDI"));
-            a6.Add(new TextAndValue("CD音轨", "CDDA"));
+            a6.Add(new TextAndValue("CD音軌", "CDDA"));
             comboBox5.DataSource = a6;
             comboBox5.DisplayMember = "DisplayText";
             comboBox5.ValueMember = "RealValue";
@@ -1926,17 +1927,17 @@ namespace KAGConfigEx2
             sw.Close();
 
         }
-        //关闭
+        //關閉
         private void button17_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        //鼠标指针们
+        //鼠標指針們
         private void button2_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = "鼠標指針   (*.CUR;*.ANI)|*.CUR;*.ANI";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1946,7 +1947,7 @@ namespace KAGConfigEx2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = "鼠標指針   (*.CUR;*.ANI)|*.CUR;*.ANI";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1957,7 +1958,7 @@ namespace KAGConfigEx2
         private void button4_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = "鼠標指針   (*.CUR;*.ANI)|*.CUR;*.ANI";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1968,7 +1969,7 @@ namespace KAGConfigEx2
         private void button5_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = "鼠標指針   (*.CUR;*.ANI)|*.CUR;*.ANI";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1976,7 +1977,7 @@ namespace KAGConfigEx2
             }
         }
 
-        //帮助文件
+        //幫助文件
         private void button6_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
@@ -1988,33 +1989,33 @@ namespace KAGConfigEx2
             }
         }
 
-        //对话框图形
+        //對話框圖形
         private void button7_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "图像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
+            openFileDialog1.Filter = "圖像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 frameGraphic = Path.GetFileName(openFileDialog1.FileName);
             }
         }
-        //换行等待
+        //換行等待
         private void button13_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "图像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
+            openFileDialog1.Filter = "圖像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 lineBreakGlyph = Path.GetFileName(openFileDialog1.FileName);
             }
         }
-        //分页等待
+        //分頁等待
         private void button14_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "图像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
+            openFileDialog1.Filter = "圖像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -2022,11 +2023,11 @@ namespace KAGConfigEx2
             }
         }
 
-        //字体预渲染文件
+        //字體預渲染文件
         private void button12_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "字体图形文件   (*.TFT)|*.TFT";
+            openFileDialog1.Filter = "字體圖形文件   (*.TFT)|*.TFT";
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -2034,7 +2035,7 @@ namespace KAGConfigEx2
             }
         }
 
-        #region 定义ChooseFont函数（没有用到的代码）
+        #region 定義ChooseFont函數（沒有用到的代碼）
         private const int CF_SCREENFONTS = 0x00000001;
         private const int CF_EFFECTS = 0x00000100;
         private const int CF_INITTOLOGFONTSTRUCT = 0x00000040;
@@ -2126,7 +2127,7 @@ namespace KAGConfigEx2
         }
         #endregion
 
-        //字体选择
+        //字體選擇
         private void button8_Click(object sender, EventArgs e)
         {
             //ChooseFontDlg();
@@ -2142,7 +2143,7 @@ namespace KAGConfigEx2
             }
         }
 
-        //历史记录字体选择
+        //歷史記錄字體選擇
         private void button16_Click(object sender, EventArgs e)
         {
 
@@ -2159,12 +2160,12 @@ namespace KAGConfigEx2
             }
         }
 
-        //对话框颜色选择
+        //對話框顏色選擇
         private void button18_Click(object sender, EventArgs e)
         {
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
-                //字体颜色转换
+                //字體顏色轉換
 
                 string r = colorDialog1.Color.R.ToString("X2");
                 string g = colorDialog1.Color.G.ToString("X2");
@@ -2175,12 +2176,12 @@ namespace KAGConfigEx2
             }
         }
 
-        //文字连接颜色
+        //文字連接顏色
         private void button15_Click(object sender, EventArgs e)
         {
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
-                //字体颜色转换
+                //字體顏色轉換
 
                 string r = colorDialog1.Color.R.ToString("X2");
                 string g = colorDialog1.Color.G.ToString("X2");
@@ -2190,12 +2191,12 @@ namespace KAGConfigEx2
             }
         }
 
-        //文字层字体颜色
+        //文字層字體顏色
         private void button9_Click(object sender, EventArgs e)
         {
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
-                //字体颜色转换
+                //字體顏色轉換
 
                 string r = colorDialog1.Color.R.ToString("X2");
                 string g = colorDialog1.Color.G.ToString("X2");
@@ -2205,12 +2206,12 @@ namespace KAGConfigEx2
             }
         }
 
-        //阴影颜色
+        //陰影顏色
         private void button10_Click(object sender, EventArgs e)
         {
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
-                //字体颜色转换
+                //字體顏色轉換
 
                 string r = colorDialog1.Color.R.ToString("X2");
                 string g = colorDialog1.Color.G.ToString("X2");
@@ -2220,12 +2221,12 @@ namespace KAGConfigEx2
             }
         }
 
-        //描边颜色
+        //描邊顏色
         private void button11_Click(object sender, EventArgs e)
         {
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
-                //字体颜色转换
+                //字體顏色轉換
 
                 string r = colorDialog1.Color.R.ToString("X2");
                 string g = colorDialog1.Color.G.ToString("X2");
@@ -2236,7 +2237,7 @@ namespace KAGConfigEx2
         }
 
 
-#region 注释：读取的参数记录
+#region 註釋：讀取的參數記錄
 
 /*
 System.title
