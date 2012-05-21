@@ -436,7 +436,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(847, 468);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "全局设定";
+            this.tabPage1.Text = "全局設定";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox15
@@ -450,7 +450,7 @@
             this.groupBox15.Size = new System.Drawing.Size(261, 105);
             this.groupBox15.TabIndex = 40;
             this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "World扩展机能默认设置";
+            this.groupBox15.Text = "World擴展機能默認設置";
             // 
             // textBox14
             // 
@@ -501,7 +501,7 @@
             this.groupBox8.Size = new System.Drawing.Size(263, 161);
             this.groupBox8.TabIndex = 38;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "自动前进时页末的等待时间（毫秒）";
+            this.groupBox8.Text = "自動前進時頁末的等待時間（毫秒）";
             // 
             // numericUpDown23
             // 
@@ -570,7 +570,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(29, 12);
             this.label33.TabIndex = 36;
-            this.label33.Text = "最长";
+            this.label33.Text = "最長";
             // 
             // label34
             // 
@@ -579,7 +579,7 @@
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(29, 12);
             this.label34.TabIndex = 34;
-            this.label34.Text = "较长";
+            this.label34.Text = "較長";
             // 
             // label35
             // 
@@ -597,7 +597,7 @@
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(29, 12);
             this.label36.TabIndex = 30;
-            this.label36.Text = "较短";
+            this.label36.Text = "較短";
             // 
             // label37
             // 
@@ -625,7 +625,7 @@
             this.groupBox9.Size = new System.Drawing.Size(263, 161);
             this.groupBox9.TabIndex = 39;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "自动前进时行末的等待时间（毫秒）";
+            this.groupBox9.Text = "自動前進時行末的等待時間（毫秒）";
             // 
             // numericUpDown18
             // 
@@ -694,7 +694,7 @@
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(29, 12);
             this.label32.TabIndex = 26;
-            this.label32.Text = "最长";
+            this.label32.Text = "最長";
             // 
             // label31
             // 
@@ -703,7 +703,7 @@
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(29, 12);
             this.label31.TabIndex = 24;
-            this.label31.Text = "较长";
+            this.label31.Text = "較長";
             // 
             // label30
             // 
@@ -721,7 +721,7 @@
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(29, 12);
             this.label29.TabIndex = 20;
-            this.label29.Text = "较短";
+            this.label29.Text = "較短";
             // 
             // label28
             // 
@@ -745,7 +745,7 @@
             this.groupBox7.Size = new System.Drawing.Size(263, 117);
             this.groupBox7.TabIndex = 37;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "文字显示速度（毫秒/字）";
+            this.groupBox7.Text = "文字顯示速度（毫秒/字）";
             // 
             // numericUpDown13
             // 
@@ -814,7 +814,7 @@
             this.groupBox10.Size = new System.Drawing.Size(263, 142);
             this.groupBox10.TabIndex = 12;
             this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "鼠标指针";
+            this.groupBox10.Text = "鼠標指針";
             // 
             // button5
             // 
@@ -866,7 +866,7 @@
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(29, 12);
             this.label39.TabIndex = 34;
-            this.label39.Text = "拖动";
+            this.label39.Text = "拖動";
             // 
             // textBox31
             // 
@@ -898,7 +898,7 @@
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(29, 12);
             this.label41.TabIndex = 30;
-            this.label41.Text = "选择";
+            this.label41.Text = "選擇";
             // 
             // textBox33
             // 
@@ -914,7 +914,7 @@
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(29, 12);
             this.label42.TabIndex = 28;
-            this.label42.Text = "默认";
+            this.label42.Text = "默認";
             // 
             // groupBox2
             // 
@@ -989,7 +989,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 12);
             this.label4.TabIndex = 0;
-            this.label4.Text = "宽度";
+            this.label4.Text = "寬度";
             // 
             // groupBox5
             // 
@@ -1002,7 +1002,7 @@
             this.groupBox5.Size = new System.Drawing.Size(263, 129);
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "其他设定（不显示）";
+            this.groupBox5.Text = "其他設定（不顯示）";
             this.groupBox5.Visible = false;
             // 
             // checkBox8
@@ -1012,7 +1012,7 @@
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(198, 16);
             this.checkBox8.TabIndex = 0;
-            this.checkBox8.Text = "QUAKE以文字显示速度为计时单位";
+            this.checkBox8.Text = "QUAKE以文字顯示速度為計時單位";
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // checkBox1
@@ -1022,7 +1022,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(174, 16);
             this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "剧本解析模式：指令[r]换行";
+            this.checkBox1.Text = "劇本解析模式：指令[r]換行";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label3
@@ -1032,7 +1032,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 12);
             this.label3.TabIndex = 6;
-            this.label3.Text = "图像缓冲大小限制";
+            this.label3.Text = "圖像緩衝大小限制";
             // 
             // textBox3
             // 
@@ -1048,7 +1048,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "游戏标题";
+            this.label1.Text = "遊戲標題";
             // 
             // textBox1
             // 
@@ -1069,7 +1069,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(847, 468);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "档案与通过记录";
+            this.tabPage2.Text = "檔案與通過記錄";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox27
@@ -1084,7 +1084,7 @@
             this.groupBox27.Size = new System.Drawing.Size(263, 124);
             this.groupBox27.TabIndex = 32;
             this.groupBox27.TabStop = false;
-            this.groupBox27.Text = "通过记录";
+            this.groupBox27.Text = "通過記錄";
             // 
             // numericUpDown1
             // 
@@ -1100,7 +1100,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(53, 12);
             this.label13.TabIndex = 18;
-            this.label13.Text = "记录数量";
+            this.label13.Text = "記錄數量";
             // 
             // comboBox2
             // 
@@ -1118,7 +1118,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(53, 12);
             this.label12.TabIndex = 16;
-            this.label12.Text = "记录模式";
+            this.label12.Text = "記錄模式";
             // 
             // checkBox7
             // 
@@ -1127,7 +1127,7 @@
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(120, 16);
             this.checkBox7.TabIndex = 15;
-            this.checkBox7.Text = "自动记录已读标签";
+            this.checkBox7.Text = "自動記錄已讀標籤";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // groupBox14
@@ -1140,7 +1140,7 @@
             this.groupBox14.Size = new System.Drawing.Size(263, 100);
             this.groupBox14.TabIndex = 29;
             this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "自动标签（AutoLabel）模式";
+            this.groupBox14.Text = "自動標籤（AutoLabel）模式";
             // 
             // comboBox3
             // 
@@ -1158,7 +1158,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(53, 12);
             this.label22.TabIndex = 1;
-            this.label22.Text = "标签模式";
+            this.label22.Text = "標籤模式";
             // 
             // checkBox13
             // 
@@ -1167,7 +1167,7 @@
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(168, 16);
             this.checkBox13.TabIndex = 0;
-            this.checkBox13.Text = "使用自动标签（按行存档）";
+            this.checkBox13.Text = "使用自動標籤（按行存檔）";
             this.checkBox13.UseVisualStyleBackColor = true;
             // 
             // groupBox6
@@ -1186,7 +1186,7 @@
             this.groupBox6.Size = new System.Drawing.Size(263, 172);
             this.groupBox6.TabIndex = 3;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "存档文件设置";
+            this.groupBox6.Text = "存檔文件設置";
             // 
             // checkBox6
             // 
@@ -1195,7 +1195,7 @@
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(132, 16);
             this.checkBox6.TabIndex = 6;
-            this.checkBox6.Text = "在存档中保存宏信息";
+            this.checkBox6.Text = "在存檔中保存宏信息";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // comboBox1
@@ -1214,7 +1214,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(53, 12);
             this.label10.TabIndex = 4;
-            this.label10.Text = "档案格式";
+            this.label10.Text = "檔案格式";
             // 
             // numericUpDown6
             // 
@@ -1247,7 +1247,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(53, 12);
             this.label9.TabIndex = 2;
-            this.label9.Text = "文件前缀";
+            this.label9.Text = "文件前綴";
             // 
             // textBox8
             // 
@@ -1263,7 +1263,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(53, 12);
             this.label18.TabIndex = 25;
-            this.label18.Text = "存档总数";
+            this.label18.Text = "存檔總數";
             // 
             // label8
             // 
@@ -1272,7 +1272,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(53, 12);
             this.label8.TabIndex = 0;
-            this.label8.Text = "存档目录";
+            this.label8.Text = "存檔目錄";
             // 
             // groupBox4
             // 
@@ -1286,7 +1286,7 @@
             this.groupBox4.Size = new System.Drawing.Size(263, 107);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "缩略图";
+            this.groupBox4.Text = "縮略圖";
             // 
             // comboBox6
             // 
@@ -1325,7 +1325,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(65, 12);
             this.label6.TabIndex = 1;
-            this.label6.Text = "缩略图宽度";
+            this.label6.Text = "縮略圖寬度";
             // 
             // checkBox5
             // 
@@ -1334,7 +1334,7 @@
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(120, 16);
             this.checkBox5.TabIndex = 0;
-            this.checkBox5.Text = "存档时保存缩略图";
+            this.checkBox5.Text = "存檔時保存縮略圖";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // groupBox3
@@ -1348,7 +1348,7 @@
             this.groupBox3.Size = new System.Drawing.Size(263, 142);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "特殊存档模式";
+            this.groupBox3.Text = "特殊存檔模式";
             // 
             // checkBox4
             // 
@@ -1357,7 +1357,7 @@
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(72, 16);
             this.checkBox4.TabIndex = 1;
-            this.checkBox4.Text = "自由存档";
+            this.checkBox4.Text = "自由存檔";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox3
@@ -1367,7 +1367,7 @@
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(72, 16);
             this.checkBox3.TabIndex = 0;
-            this.checkBox3.Text = "只读模式";
+            this.checkBox3.Text = "只讀模式";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // label11
@@ -1377,7 +1377,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(41, 12);
             this.label11.TabIndex = 35;
-            this.label11.Text = "资料ID";
+            this.label11.Text = "資料ID";
             // 
             // textBox10
             // 
@@ -1400,7 +1400,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(847, 468);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "菜单设定";
+            this.tabPage3.Text = "菜單設定";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // groupBox28
@@ -1421,7 +1421,7 @@
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(48, 16);
             this.checkBox30.TabIndex = 2;
-            this.checkBox30.Text = "画面";
+            this.checkBox30.Text = "畫面";
             this.checkBox30.UseVisualStyleBackColor = true;
             // 
             // checkBox31
@@ -1431,7 +1431,7 @@
             this.checkBox31.Name = "checkBox31";
             this.checkBox31.Size = new System.Drawing.Size(48, 16);
             this.checkBox31.TabIndex = 3;
-            this.checkBox31.Text = "除错";
+            this.checkBox31.Text = "除錯";
             this.checkBox31.UseVisualStyleBackColor = true;
             // 
             // groupBox13
@@ -1445,7 +1445,7 @@
             this.groupBox13.Size = new System.Drawing.Size(266, 100);
             this.groupBox13.TabIndex = 34;
             this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "「帮助 > 关于」窗口尺寸";
+            this.groupBox13.Text = "「幫助 > 關於」窗口尺寸";
             // 
             // numericUpDown30
             // 
@@ -1498,7 +1498,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(29, 12);
             this.label21.TabIndex = 4;
-            this.label21.Text = "宽度";
+            this.label21.Text = "寬度";
             // 
             // label20
             // 
@@ -1521,7 +1521,7 @@
             this.groupBox19.Size = new System.Drawing.Size(266, 108);
             this.groupBox19.TabIndex = 4;
             this.groupBox19.TabStop = false;
-            this.groupBox19.Text = "帮助";
+            this.groupBox19.Text = "幫助";
             // 
             // button6
             // 
@@ -1546,7 +1546,7 @@
             this.checkBox34.Name = "checkBox34";
             this.checkBox34.Size = new System.Drawing.Size(48, 16);
             this.checkBox34.TabIndex = 2;
-            this.checkBox34.Text = "关于";
+            this.checkBox34.Text = "關於";
             this.checkBox34.UseVisualStyleBackColor = true;
             // 
             // checkBox33
@@ -1556,7 +1556,7 @@
             this.checkBox33.Name = "checkBox33";
             this.checkBox33.Size = new System.Drawing.Size(48, 16);
             this.checkBox33.TabIndex = 1;
-            this.checkBox33.Text = "说明";
+            this.checkBox33.Text = "說明";
             this.checkBox33.UseVisualStyleBackColor = true;
             // 
             // checkBox32
@@ -1566,7 +1566,7 @@
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(48, 16);
             this.checkBox32.TabIndex = 0;
-            this.checkBox32.Text = "帮助";
+            this.checkBox32.Text = "幫助";
             this.checkBox32.UseVisualStyleBackColor = true;
             // 
             // groupBox18
@@ -1579,7 +1579,7 @@
             this.groupBox18.Size = new System.Drawing.Size(263, 95);
             this.groupBox18.TabIndex = 3;
             this.groupBox18.TabStop = false;
-            this.groupBox18.Text = "存取菜单";
+            this.groupBox18.Text = "存取菜單";
             // 
             // checkBox11
             // 
@@ -1588,7 +1588,7 @@
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(132, 16);
             this.checkBox11.TabIndex = 27;
-            this.checkBox11.Text = "档案名加上日期显示";
+            this.checkBox11.Text = "檔案名加上日期顯示";
             this.checkBox11.UseVisualStyleBackColor = true;
             // 
             // checkBox29
@@ -1598,7 +1598,7 @@
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(72, 16);
             this.checkBox29.TabIndex = 1;
-            this.checkBox29.Text = "保存进度";
+            this.checkBox29.Text = "保存進度";
             this.checkBox29.UseVisualStyleBackColor = true;
             // 
             // checkBox28
@@ -1608,7 +1608,7 @@
             this.checkBox28.Name = "checkBox28";
             this.checkBox28.Size = new System.Drawing.Size(72, 16);
             this.checkBox28.TabIndex = 0;
-            this.checkBox28.Text = "读取进度";
+            this.checkBox28.Text = "讀取進度";
             this.checkBox28.UseVisualStyleBackColor = true;
             // 
             // groupBox17
@@ -1634,7 +1634,7 @@
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(108, 16);
             this.checkBox12.TabIndex = 25;
-            this.checkBox12.Text = "只显示等宽字体";
+            this.checkBox12.Text = "只顯示等寬字體";
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
             // checkBox22
@@ -1664,7 +1664,7 @@
             this.checkBox27.Name = "checkBox27";
             this.checkBox27.Size = new System.Drawing.Size(72, 16);
             this.checkBox27.TabIndex = 5;
-            this.checkBox27.Text = "选择字体";
+            this.checkBox27.Text = "選擇字體";
             this.checkBox27.UseVisualStyleBackColor = true;
             // 
             // checkBox24
@@ -1674,7 +1674,7 @@
             this.checkBox24.Name = "checkBox24";
             this.checkBox24.Size = new System.Drawing.Size(72, 16);
             this.checkBox24.TabIndex = 2;
-            this.checkBox24.Text = "已读部分";
+            this.checkBox24.Text = "已讀部分";
             this.checkBox24.UseVisualStyleBackColor = true;
             // 
             // checkBox25
@@ -1684,7 +1684,7 @@
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(162, 16);
             this.checkBox25.TabIndex = 3;
-            this.checkBox25.Text = "已读部分 > 直到文字段尾";
+            this.checkBox25.Text = "已讀部分 > 直到文字段尾";
             this.checkBox25.UseVisualStyleBackColor = true;
             // 
             // checkBox26
@@ -1694,7 +1694,7 @@
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(72, 16);
             this.checkBox26.TabIndex = 4;
-            this.checkBox26.Text = "平滑处理";
+            this.checkBox26.Text = "平滑處理";
             this.checkBox26.UseVisualStyleBackColor = true;
             // 
             // groupBox16
@@ -1711,7 +1711,7 @@
             this.groupBox16.Size = new System.Drawing.Size(263, 184);
             this.groupBox16.TabIndex = 1;
             this.groupBox16.TabStop = false;
-            this.groupBox16.Text = "系统";
+            this.groupBox16.Text = "系統";
             // 
             // checkBox21
             // 
@@ -1720,7 +1720,7 @@
             this.checkBox21.Name = "checkBox21";
             this.checkBox21.Size = new System.Drawing.Size(72, 16);
             this.checkBox21.TabIndex = 6;
-            this.checkBox21.Text = "返回标题";
+            this.checkBox21.Text = "返回標題";
             this.checkBox21.UseVisualStyleBackColor = true;
             // 
             // checkBox20
@@ -1740,7 +1740,7 @@
             this.checkBox19.Name = "checkBox19";
             this.checkBox19.Size = new System.Drawing.Size(120, 16);
             this.checkBox19.TabIndex = 4;
-            this.checkBox19.Text = "自动前进等待时间";
+            this.checkBox19.Text = "自動前進等待時間";
             this.checkBox19.UseVisualStyleBackColor = true;
             // 
             // checkBox18
@@ -1750,7 +1750,7 @@
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(72, 16);
             this.checkBox18.TabIndex = 3;
-            this.checkBox18.Text = "自动前进";
+            this.checkBox18.Text = "自動前進";
             this.checkBox18.UseVisualStyleBackColor = true;
             // 
             // checkBox17
@@ -1760,7 +1760,7 @@
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(72, 16);
             this.checkBox17.TabIndex = 2;
-            this.checkBox17.Text = "快速略过";
+            this.checkBox17.Text = "快速略過";
             this.checkBox17.UseVisualStyleBackColor = true;
             // 
             // checkBox16
@@ -1770,7 +1770,7 @@
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(96, 16);
             this.checkBox16.TabIndex = 1;
-            this.checkBox16.Text = "显示历史记录";
+            this.checkBox16.Text = "顯示歷史記錄";
             this.checkBox16.UseVisualStyleBackColor = true;
             // 
             // checkBox15
@@ -1780,7 +1780,7 @@
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(84, 16);
             this.checkBox15.TabIndex = 0;
-            this.checkBox15.Text = "隐藏文字层";
+            this.checkBox15.Text = "隱藏文字層";
             this.checkBox15.UseVisualStyleBackColor = true;
             // 
             // checkBox14
@@ -1790,7 +1790,7 @@
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(84, 16);
             this.checkBox14.TabIndex = 0;
-            this.checkBox14.Text = "显示菜单栏";
+            this.checkBox14.Text = "顯示菜單欄";
             this.checkBox14.UseVisualStyleBackColor = true;
             // 
             // tabPage4
@@ -1806,7 +1806,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(847, 468);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "文字层设定";
+            this.tabPage4.Text = "文字層設定";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // groupBox11
@@ -1822,7 +1822,7 @@
             this.groupBox11.Size = new System.Drawing.Size(263, 151);
             this.groupBox11.TabIndex = 40;
             this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "基本设定";
+            this.groupBox11.Text = "基本設定";
             // 
             // label17
             // 
@@ -1831,7 +1831,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(65, 12);
             this.label17.TabIndex = 22;
-            this.label17.Text = "文字层数量";
+            this.label17.Text = "文字層數量";
             // 
             // numericUpDown5
             // 
@@ -1857,7 +1857,7 @@
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(180, 16);
             this.checkBox10.TabIndex = 24;
-            this.checkBox10.Text = "默认显示文字层（message0）";
+            this.checkBox10.Text = "默認顯示文字層（message0）";
             this.checkBox10.UseVisualStyleBackColor = true;
             // 
             // checkBox9
@@ -1867,7 +1867,7 @@
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(108, 16);
             this.checkBox9.TabIndex = 31;
-            this.checkBox9.Text = "文字层参与震动";
+            this.checkBox9.Text = "文字層參與震動";
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
             // label47
@@ -1877,7 +1877,7 @@
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(53, 12);
             this.label47.TabIndex = 0;
-            this.label47.Text = "显示模式";
+            this.label47.Text = "顯示模式";
             // 
             // comboBox4
             // 
@@ -1900,7 +1900,7 @@
             this.groupBox25.Size = new System.Drawing.Size(263, 95);
             this.groupBox25.TabIndex = 32;
             this.groupBox25.TabStop = false;
-            this.groupBox25.Text = "文字连接（Link）设定";
+            this.groupBox25.Text = "文字連接（Link）設定";
             // 
             // button15
             // 
@@ -1946,7 +1946,7 @@
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(53, 12);
             this.label71.TabIndex = 0;
-            this.label71.Text = "选中颜色";
+            this.label71.Text = "選中顏色";
             // 
             // groupBox23
             // 
@@ -1970,7 +1970,7 @@
             this.groupBox23.Size = new System.Drawing.Size(263, 235);
             this.groupBox23.TabIndex = 30;
             this.groupBox23.TabStop = false;
-            this.groupBox23.Text = "等待点击标志";
+            this.groupBox23.Text = "等待點擊標誌";
             // 
             // button14
             // 
@@ -2021,7 +2021,7 @@
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(29, 12);
             this.label69.TabIndex = 46;
-            this.label69.Text = "上侧";
+            this.label69.Text = "上側";
             // 
             // label70
             // 
@@ -2030,7 +2030,7 @@
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(29, 12);
             this.label70.TabIndex = 45;
-            this.label70.Text = "左侧";
+            this.label70.Text = "左側";
             // 
             // checkBox38
             // 
@@ -2039,7 +2039,7 @@
             this.checkBox38.Name = "checkBox38";
             this.checkBox38.Size = new System.Drawing.Size(132, 16);
             this.checkBox38.TabIndex = 37;
-            this.checkBox38.Text = "在固定位置显示标志";
+            this.checkBox38.Text = "在固定位置顯示標誌";
             this.checkBox38.UseVisualStyleBackColor = true;
             // 
             // numericUpDown46
@@ -2056,7 +2056,7 @@
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(41, 12);
             this.label68.TabIndex = 35;
-            this.label68.Text = "基准行";
+            this.label68.Text = "基準行";
             // 
             // numericUpDown45
             // 
@@ -2072,7 +2072,7 @@
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(41, 12);
             this.label67.TabIndex = 33;
-            this.label67.Text = "基准行";
+            this.label67.Text = "基準行";
             // 
             // textBox16
             // 
@@ -2088,7 +2088,7 @@
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(53, 12);
             this.label66.TabIndex = 31;
-            this.label66.Text = "换页标志";
+            this.label66.Text = "換頁標誌";
             // 
             // textBox13
             // 
@@ -2104,7 +2104,7 @@
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(53, 12);
             this.label65.TabIndex = 0;
-            this.label65.Text = "分段标志";
+            this.label65.Text = "分段標誌";
             // 
             // groupBox22
             // 
@@ -2178,7 +2178,7 @@
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(29, 12);
             this.label56.TabIndex = 44;
-            this.label56.Text = "左侧";
+            this.label56.Text = "左側";
             // 
             // label53
             // 
@@ -2196,7 +2196,7 @@
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(29, 12);
             this.label55.TabIndex = 46;
-            this.label55.Text = "上侧";
+            this.label55.Text = "上側";
             // 
             // label54
             // 
@@ -2205,7 +2205,7 @@
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(29, 12);
             this.label54.TabIndex = 48;
-            this.label54.Text = "宽度";
+            this.label54.Text = "寬度";
             // 
             // groupBox21
             // 
@@ -2223,7 +2223,7 @@
             this.groupBox21.Size = new System.Drawing.Size(263, 181);
             this.groupBox21.TabIndex = 5;
             this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "页边距";
+            this.groupBox21.Text = "頁邊距";
             // 
             // numericUpDown35
             // 
@@ -2280,7 +2280,7 @@
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(29, 12);
             this.label49.TabIndex = 42;
-            this.label49.Text = "下侧";
+            this.label49.Text = "下側";
             // 
             // label50
             // 
@@ -2289,7 +2289,7 @@
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(29, 12);
             this.label50.TabIndex = 40;
-            this.label50.Text = "右侧";
+            this.label50.Text = "右側";
             // 
             // label51
             // 
@@ -2298,7 +2298,7 @@
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(29, 12);
             this.label51.TabIndex = 38;
-            this.label51.Text = "上侧";
+            this.label51.Text = "上側";
             // 
             // label52
             // 
@@ -2307,7 +2307,7 @@
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(29, 12);
             this.label52.TabIndex = 36;
-            this.label52.Text = "左侧";
+            this.label52.Text = "左側";
             // 
             // checkBox40
             // 
@@ -2316,7 +2316,7 @@
             this.checkBox40.Name = "checkBox40";
             this.checkBox40.Size = new System.Drawing.Size(72, 16);
             this.checkBox40.TabIndex = 34;
-            this.checkBox40.Text = "允许拖动";
+            this.checkBox40.Text = "允許拖動";
             this.checkBox40.UseVisualStyleBackColor = true;
             // 
             // groupBox20
@@ -2334,7 +2334,7 @@
             this.groupBox20.Size = new System.Drawing.Size(263, 127);
             this.groupBox20.TabIndex = 4;
             this.groupBox20.TabStop = false;
-            this.groupBox20.Text = "文字框样式";
+            this.groupBox20.Text = "文字框樣式";
             // 
             // button18
             // 
@@ -2361,7 +2361,7 @@
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(53, 12);
             this.label82.TabIndex = 8;
-            this.label82.Text = "使用颜色";
+            this.label82.Text = "使用顏色";
             // 
             // label81
             // 
@@ -2370,7 +2370,7 @@
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(53, 12);
             this.label81.TabIndex = 7;
-            this.label81.Text = "使用图片";
+            this.label81.Text = "使用圖片";
             // 
             // numericUpDown42
             // 
@@ -2417,7 +2417,7 @@
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Size = new System.Drawing.Size(847, 468);
             this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "字体设定";
+            this.tabPage7.Text = "字體設定";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // groupBox31
@@ -2431,7 +2431,7 @@
             this.groupBox31.Size = new System.Drawing.Size(263, 100);
             this.groupBox31.TabIndex = 46;
             this.groupBox31.TabStop = false;
-            this.groupBox31.Text = "注音文字（Ruby设定）";
+            this.groupBox31.Text = "注音文字（Ruby設定）";
             // 
             // label63
             // 
@@ -2456,7 +2456,7 @@
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(77, 12);
             this.label64.TabIndex = 23;
-            this.label64.Text = "注音文字间距";
+            this.label64.Text = "注音文字間距";
             // 
             // numericUpDown44
             // 
@@ -2519,7 +2519,7 @@
             this.checkBox35.Name = "checkBox35";
             this.checkBox35.Size = new System.Drawing.Size(114, 16);
             this.checkBox35.TabIndex = 7;
-            this.checkBox35.Text = "自动换行 / 换页";
+            this.checkBox35.Text = "自動換行 / 換頁";
             this.checkBox35.UseVisualStyleBackColor = true;
             // 
             // label60
@@ -2529,7 +2529,7 @@
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(41, 12);
             this.label60.TabIndex = 14;
-            this.label60.Text = "字间距";
+            this.label60.Text = "字間距";
             // 
             // checkBox39
             // 
@@ -2538,7 +2538,7 @@
             this.checkBox39.Name = "checkBox39";
             this.checkBox39.Size = new System.Drawing.Size(72, 16);
             this.checkBox39.TabIndex = 33;
-            this.checkBox39.Text = "竖排文字";
+            this.checkBox39.Text = "豎排文字";
             this.checkBox39.UseVisualStyleBackColor = true;
             // 
             // label58
@@ -2564,7 +2564,7 @@
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(41, 12);
             this.label59.TabIndex = 12;
-            this.label59.Text = "行间距";
+            this.label59.Text = "行間距";
             // 
             // numericUpDown8
             // 
@@ -2584,7 +2584,7 @@
             this.groupBox1.Size = new System.Drawing.Size(263, 93);
             this.groupBox1.TabIndex = 44;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "预渲染文字";
+            this.groupBox1.Text = "預渲染文字";
             // 
             // button12
             // 
@@ -2642,7 +2642,7 @@
             this.groupBox24.Size = new System.Drawing.Size(263, 181);
             this.groupBox24.TabIndex = 43;
             this.groupBox24.TabStop = false;
-            this.groupBox24.Text = "默认字体样式";
+            this.groupBox24.Text = "默認字體樣式";
             // 
             // button11
             // 
@@ -2687,7 +2687,7 @@
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(29, 12);
             this.label61.TabIndex = 16;
-            this.label61.Text = "字体";
+            this.label61.Text = "字體";
             // 
             // checkBox36
             // 
@@ -2696,7 +2696,7 @@
             this.checkBox36.Name = "checkBox36";
             this.checkBox36.Size = new System.Drawing.Size(48, 16);
             this.checkBox36.TabIndex = 20;
-            this.checkBox36.Text = "粗体";
+            this.checkBox36.Text = "粗體";
             this.checkBox36.UseVisualStyleBackColor = true;
             // 
             // checkBox48
@@ -2706,7 +2706,7 @@
             this.checkBox48.Name = "checkBox48";
             this.checkBox48.Size = new System.Drawing.Size(78, 16);
             this.checkBox48.TabIndex = 31;
-            this.checkBox48.Text = "描边 颜色";
+            this.checkBox48.Text = "描邊 顏色";
             this.checkBox48.UseVisualStyleBackColor = true;
             // 
             // label62
@@ -2716,7 +2716,7 @@
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(29, 12);
             this.label62.TabIndex = 18;
-            this.label62.Text = "颜色";
+            this.label62.Text = "顏色";
             // 
             // textBox5
             // 
@@ -2739,7 +2739,7 @@
             this.checkBox37.Name = "checkBox37";
             this.checkBox37.Size = new System.Drawing.Size(96, 16);
             this.checkBox37.TabIndex = 25;
-            this.checkBox37.Text = "平滑处理文字";
+            this.checkBox37.Text = "平滑處理文字";
             this.checkBox37.UseVisualStyleBackColor = true;
             // 
             // checkBox47
@@ -2749,7 +2749,7 @@
             this.checkBox47.Name = "checkBox47";
             this.checkBox47.Size = new System.Drawing.Size(78, 16);
             this.checkBox47.TabIndex = 30;
-            this.checkBox47.Text = "阴影 颜色";
+            this.checkBox47.Text = "陰影 顏色";
             this.checkBox47.UseVisualStyleBackColor = true;
             // 
             // textBox6
@@ -2777,7 +2777,7 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(847, 468);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "图形与音声设定";
+            this.tabPage5.Text = "圖形與音聲設定";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // groupBox29
@@ -2800,7 +2800,7 @@
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(101, 12);
             this.label74.TabIndex = 2;
-            this.label74.Text = "CDDA播放来源标签";
+            this.label74.Text = "CDDA播放來源標籤";
             // 
             // textBox19
             // 
@@ -2823,7 +2823,7 @@
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(131, 12);
             this.label75.TabIndex = 5;
-            this.label75.Text = "MIDI 播放开始前的讯息";
+            this.label75.Text = "MIDI 播放開始前的訊息";
             // 
             // groupBox33
             // 
@@ -2836,7 +2836,7 @@
             this.groupBox33.Size = new System.Drawing.Size(263, 100);
             this.groupBox33.TabIndex = 40;
             this.groupBox33.TabStop = false;
-            this.groupBox33.Text = "图层设定";
+            this.groupBox33.Text = "圖層設定";
             // 
             // label15
             // 
@@ -2845,7 +2845,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(89, 12);
             this.label15.TabIndex = 17;
-            this.label15.Text = "视频对象的数量";
+            this.label15.Text = "視頻對象的數量";
             // 
             // numericUpDown4
             // 
@@ -2871,7 +2871,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(125, 12);
             this.label16.TabIndex = 19;
-            this.label16.Text = "初期状态的前景层数量";
+            this.label16.Text = "初期狀態的前景層數量";
             // 
             // numericUpDown3
             // 
@@ -2902,7 +2902,7 @@
             this.groupBox32.Size = new System.Drawing.Size(263, 126);
             this.groupBox32.TabIndex = 39;
             this.groupBox32.TabStop = false;
-            this.groupBox32.Text = "音频设定";
+            this.groupBox32.Text = "音頻設定";
             // 
             // label14
             // 
@@ -2911,7 +2911,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(77, 12);
             this.label14.TabIndex = 15;
-            this.label14.Text = "音效缓冲数量";
+            this.label14.Text = "音效緩衝數量";
             // 
             // numericUpDown2
             // 
@@ -2937,7 +2937,7 @@
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(77, 12);
             this.label73.TabIndex = 0;
-            this.label73.Text = "音乐文件格式";
+            this.label73.Text = "音樂文件格式";
             // 
             // comboBox5
             // 
@@ -2955,7 +2955,7 @@
             this.checkBox41.Name = "checkBox41";
             this.checkBox41.Size = new System.Drawing.Size(240, 16);
             this.checkBox41.TabIndex = 4;
-            this.checkBox41.Text = "交叉定位（音声渐变效果需要打开此项）";
+            this.checkBox41.Text = "交叉定位（音聲漸變效果需要打開此項）";
             this.checkBox41.UseVisualStyleBackColor = true;
             // 
             // groupBox12
@@ -2975,7 +2975,7 @@
             this.groupBox12.Size = new System.Drawing.Size(263, 184);
             this.groupBox12.TabIndex = 38;
             this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "前景层的自动对齐位置指定";
+            this.groupBox12.Text = "前景層的自動對齊位置指定";
             // 
             // numericUpDown28
             // 
@@ -3044,7 +3044,7 @@
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(29, 12);
             this.label38.TabIndex = 36;
-            this.label38.Text = "右侧";
+            this.label38.Text = "右側";
             // 
             // label43
             // 
@@ -3080,7 +3080,7 @@
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(29, 12);
             this.label46.TabIndex = 28;
-            this.label46.Text = "左侧";
+            this.label46.Text = "左側";
             // 
             // tabPage6
             // 
@@ -3091,7 +3091,7 @@
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(847, 468);
             this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "历史记录设定";
+            this.tabPage6.Text = "歷史記錄設定";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // groupBox34
@@ -3112,7 +3112,7 @@
             this.groupBox34.Size = new System.Drawing.Size(263, 209);
             this.groupBox34.TabIndex = 39;
             this.groupBox34.TabStop = false;
-            this.groupBox34.Text = "文字样式";
+            this.groupBox34.Text = "文字樣式";
             // 
             // button16
             // 
@@ -3130,7 +3130,7 @@
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(29, 12);
             this.label76.TabIndex = 18;
-            this.label76.Text = "字体";
+            this.label76.Text = "字體";
             // 
             // textBox20
             // 
@@ -3146,7 +3146,7 @@
             this.checkBox42.Name = "checkBox42";
             this.checkBox42.Size = new System.Drawing.Size(48, 16);
             this.checkBox42.TabIndex = 21;
-            this.checkBox42.Text = "粗体";
+            this.checkBox42.Text = "粗體";
             this.checkBox42.UseVisualStyleBackColor = true;
             // 
             // checkBox45
@@ -3156,7 +3156,7 @@
             this.checkBox45.Name = "checkBox45";
             this.checkBox45.Size = new System.Drawing.Size(72, 16);
             this.checkBox45.TabIndex = 36;
-            this.checkBox45.Text = "自动改行";
+            this.checkBox45.Text = "自動改行";
             this.checkBox45.UseVisualStyleBackColor = true;
             // 
             // label77
@@ -3175,7 +3175,7 @@
             this.checkBox44.Name = "checkBox44";
             this.checkBox44.Size = new System.Drawing.Size(132, 16);
             this.checkBox44.TabIndex = 35;
-            this.checkBox44.Text = "以页为单位进行阅览";
+            this.checkBox44.Text = "以頁為單位進行閱覽";
             this.checkBox44.UseVisualStyleBackColor = true;
             // 
             // numericUpDown50
@@ -3192,7 +3192,7 @@
             this.checkBox43.Name = "checkBox43";
             this.checkBox43.Size = new System.Drawing.Size(72, 16);
             this.checkBox43.TabIndex = 34;
-            this.checkBox43.Text = "竖排显示";
+            this.checkBox43.Text = "豎排顯示";
             this.checkBox43.UseVisualStyleBackColor = true;
             // 
             // numericUpDown51
@@ -3223,7 +3223,7 @@
             this.groupBox26.Size = new System.Drawing.Size(263, 126);
             this.groupBox26.TabIndex = 37;
             this.groupBox26.TabStop = false;
-            this.groupBox26.Text = "历史记录容量";
+            this.groupBox26.Text = "歷史記錄容量";
             // 
             // label79
             // 
@@ -3232,7 +3232,7 @@
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(53, 12);
             this.label79.TabIndex = 40;
-            this.label79.Text = "最大行数";
+            this.label79.Text = "最大行數";
             // 
             // checkBox46
             // 
@@ -3241,7 +3241,7 @@
             this.checkBox46.Name = "checkBox46";
             this.checkBox46.Size = new System.Drawing.Size(144, 16);
             this.checkBox46.TabIndex = 38;
-            this.checkBox46.Text = "在存档中保存历史记录";
+            this.checkBox46.Text = "在存檔中保存歷史記錄";
             this.checkBox46.UseVisualStyleBackColor = true;
             // 
             // label80
@@ -3251,7 +3251,7 @@
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(53, 12);
             this.label80.TabIndex = 38;
-            this.label80.Text = "最大页数";
+            this.label80.Text = "最大頁數";
             // 
             // numericUpDown52
             // 
@@ -3298,7 +3298,7 @@
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 23);
             this.button17.TabIndex = 2;
-            this.button17.Text = "关闭";
+            this.button17.Text = "關閉";
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
@@ -3309,7 +3309,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(359, 12);
             this.label19.TabIndex = 3;
-            this.label19.Text = "可以把任意一个Config.tjs文件拖到这个窗口上来编辑Yoooooo——";
+            this.label19.Text = "可以把任意一個Config.tjs文件拖到這個窗口上來編輯Yoooooo——";
             // 
             // fontDialog1
             // 
