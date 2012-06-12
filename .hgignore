@@ -1,3 +1,5 @@
 syntax: glob
 project/Template/savedata/
 savedata/
+tool/KAGConfigEx2/KAGConfigEx2/bin/
+tool/KAGConfigEx2/KAGConfigEx2/obj/
