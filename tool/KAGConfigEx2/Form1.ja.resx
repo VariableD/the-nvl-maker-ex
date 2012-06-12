@@ -1,0 +1,1362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>氏</value>
+  </data>
+  <data name="textBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 19</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>World.ksデフォルト設定</value>
+  </data>
+  <data name="numericUpDown23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 128</value>
+  </data>
+  <data name="numericUpDown23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 100</value>
+  </data>
+  <data name="numericUpDown22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 73</value>
+  </data>
+  <data name="numericUpDown21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 47</value>
+  </data>
+  <data name="numericUpDown20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="numericUpDown19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label87.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label87.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>短い</value>
+  </data>
+  <data name="label83.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label83.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>遅い</value>
+  </data>
+  <data name="label84.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label84.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label84.Text" xml:space="preserve">
+    <value>やや遅い</value>
+  </data>
+  <data name="label85.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label85.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label86.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label86.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label86.Text" xml:space="preserve">
+    <value>やや短い</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>自動読み進む・[l] ウェイト(ミリ秒)</value>
+  </data>
+  <data name="numericUpDown18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 128</value>
+  </data>
+  <data name="numericUpDown18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 100</value>
+  </data>
+  <data name="numericUpDown17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 73</value>
+  </data>
+  <data name="numericUpDown16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 46</value>
+  </data>
+  <data name="numericUpDown15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="numericUpDown14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>遅い</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>やや遅い</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>やや短い</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>短い</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>自動読み進む・ページ末ウェイト (ミリ秒)</value>
+  </data>
+  <data name="numericUpDown13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 80</value>
+  </data>
+  <data name="numericUpDown13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="numericUpDown12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 53</value>
+  </data>
+  <data name="numericUpDown12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="numericUpDown11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 27</value>
+  </data>
+  <data name="numericUpDown11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>遅い</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 55</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>メッセージ表示速度（ミリセカンド／文字）</value>
+  </data>
+  <data name="textBox30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 107</value>
+  </data>
+  <data name="textBox30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>ドラッグ</value>
+  </data>
+  <data name="textBox31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 79</value>
+  </data>
+  <data name="textBox31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>待ち</value>
+  </data>
+  <data name="textBox32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 51</value>
+  </data>
+  <data name="textBox32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="textBox33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="textBox33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>マウスカーソル</value>
+  </data>
+  <data name="numericUpDown10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 19</value>
+  </data>
+  <data name="numericUpDown9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 19</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>画面サイズ</value>
+  </data>
+  <data name="checkBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 16</value>
+  </data>
+  <data name="checkBox8.Text" xml:space="preserve">
+    <value>QUAKE：タイミングの単位に表示速度を使う</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 16</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>シナリオ解析モード：[r]で改行</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>画像キャッシュ制限</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 83</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 19</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ゲームタイトル</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 26</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 19</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>グローバル設定</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>記録数</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>記録モード</value>
+  </data>
+  <data name="checkBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="checkBox7.Text" xml:space="preserve">
+    <value>読んだラベルを自動記録</value>
+  </data>
+  <data name="groupBox27.Text" xml:space="preserve">
+    <value>通過記録</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>ラベルモード</value>
+  </data>
+  <data name="checkBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="checkBox13.Text" xml:space="preserve">
+    <value>自動ラベルを使用する</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>自動ラベルモード</value>
+  </data>
+  <data name="checkBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="checkBox6.Text" xml:space="preserve">
+    <value>マクロの情報を保存する</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 77</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>保存モード</value>
+  </data>
+  <data name="numericUpDown6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 106</value>
+  </data>
+  <data name="numericUpDown6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 19</value>
+  </data>
+  <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 50</value>
+  </data>
+  <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 19</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>プレフィクス</value>
+  </data>
+  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 19</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>データ総数</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>保存場所</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>セーブデータ（栞）</value>
+  </data>
+  <data name="numericUpDown31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 43</value>
+  </data>
+  <data name="numericUpDown31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 19</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 76</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>保存モード</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>サムネイルの横幅</value>
+  </data>
+  <data name="checkBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="checkBox5.Text" xml:space="preserve">
+    <value>サムネイルを保存する</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>サムネイル</value>
+  </data>
+  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="checkBox4.Text" xml:space="preserve">
+    <value>フリーセーブ</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>読みとり専用</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>データID</value>
+  </data>
+  <data name="textBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 19</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>セーブモード</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>セーブデータと通過記録</value>
+  </data>
+  <data name="checkBox31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="checkBox31.Text" xml:space="preserve">
+    <value>デバッグ</value>
+  </data>
+  <data name="groupBox28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 359</value>
+  </data>
+  <data name="groupBox28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 85</value>
+  </data>
+  <data name="groupBox28.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="numericUpDown30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 359</value>
+  </data>
+  <data name="groupBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 85</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>「このソフトについて」のウィンドウサイズ</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 89</value>
+  </data>
+  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 91</value>
+  </data>
+  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 19</value>
+  </data>
+  <data name="checkBox34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="checkBox34.Text" xml:space="preserve">
+    <value>目次 ...</value>
+  </data>
+  <data name="checkBox33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="checkBox33.Text" xml:space="preserve">
+    <value>このソフトについて ...</value>
+  </data>
+  <data name="checkBox32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="checkBox32.Text" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="groupBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 123</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="checkBox11.Text" xml:space="preserve">
+    <value>栞の日付を表示する</value>
+  </data>
+  <data name="checkBox29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="checkBox29.Text" xml:space="preserve">
+    <value>栞をはさむ</value>
+  </data>
+  <data name="checkBox28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="checkBox28.Text" xml:space="preserve">
+    <value>栞をたどる</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>栞</value>
+  </data>
+  <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="checkBox12.Text" xml:space="preserve">
+    <value>等幅フォントのみ</value>
+  </data>
+  <data name="checkBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 16</value>
+  </data>
+  <data name="checkBox23.Text" xml:space="preserve">
+    <value>表示速度 &gt; ページ末まで一気に</value>
+  </data>
+  <data name="checkBox27.Text" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="checkBox24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="checkBox24.Text" xml:space="preserve">
+    <value>一度読んだところは</value>
+  </data>
+  <data name="checkBox25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="checkBox25.Text" xml:space="preserve">
+    <value>&gt; ページ末まで一気に</value>
+  </data>
+  <data name="checkBox26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="checkBox26.Text" xml:space="preserve">
+    <value>アンチエイリアス</value>
+  </data>
+  <data name="groupBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 212</value>
+  </data>
+  <data name="checkBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="checkBox21.Text" xml:space="preserve">
+    <value>最初に戻る</value>
+  </data>
+  <data name="checkBox20.Text" xml:space="preserve">
+    <value>前に戻る</value>
+  </data>
+  <data name="checkBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 16</value>
+  </data>
+  <data name="checkBox19.Text" xml:space="preserve">
+    <value>自動的に読み進むウェイト</value>
+  </data>
+  <data name="checkBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="checkBox18.Text" xml:space="preserve">
+    <value>自動的に読み進む</value>
+  </data>
+  <data name="checkBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 16</value>
+  </data>
+  <data name="checkBox17.Text" xml:space="preserve">
+    <value>次の選択肢/未読まで進む</value>
+  </data>
+  <data name="checkBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="checkBox16.Text" xml:space="preserve">
+    <value>メッセージ履歴の表示</value>
+  </data>
+  <data name="checkBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="checkBox15.Text" xml:space="preserve">
+    <value>メッセージを消す</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="checkBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="checkBox14.Text" xml:space="preserve">
+    <value>メニューを表示する</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>メニュー設定</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 12</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>メッセージレイヤの数</value>
+  </data>
+  <data name="numericUpDown5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 27</value>
+  </data>
+  <data name="numericUpDown5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="checkBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="checkBox10.Text" xml:space="preserve">
+    <value>message0を初期表示する</value>
+  </data>
+  <data name="checkBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="checkBox9.Text" xml:space="preserve">
+    <value>揺れエフェクトに入れる</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>表示モード</value>
+  </data>
+  <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 115</value>
+  </data>
+  <data name="comboBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>基本設定</value>
+  </data>
+  <data name="numericUpDown49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 19</value>
+  </data>
+  <data name="textBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 19</value>
+  </data>
+  <data name="label71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label71.Text" xml:space="preserve">
+    <value>強調色</value>
+  </data>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>リンク設定</value>
+  </data>
+  <data name="numericUpDown47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 19</value>
+  </data>
+  <data name="numericUpDown48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 19</value>
+  </data>
+  <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 196</value>
+  </data>
+  <data name="label69.Text" xml:space="preserve">
+    <value>上端</value>
+  </data>
+  <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 162</value>
+  </data>
+  <data name="label70.Text" xml:space="preserve">
+    <value>左端</value>
+  </data>
+  <data name="checkBox38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 16</value>
+  </data>
+  <data name="checkBox38.Text" xml:space="preserve">
+    <value>グリフを固定した場所に表示する</value>
+  </data>
+  <data name="numericUpDown46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 101</value>
+  </data>
+  <data name="numericUpDown46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 104</value>
+  </data>
+  <data name="numericUpDown45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 47</value>
+  </data>
+  <data name="numericUpDown45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="label67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="textBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 74</value>
+  </data>
+  <data name="textBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>ページ末グリフ</value>
+  </data>
+  <data name="textBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="textBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="label65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label65.Text" xml:space="preserve">
+    <value>行末グリフ</value>
+  </data>
+  <data name="groupBox23.Text" xml:space="preserve">
+    <value>クリック待ちグリフ</value>
+  </data>
+  <data name="numericUpDown39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="numericUpDown38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="numericUpDown37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="numericUpDown36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="label56.Text" xml:space="preserve">
+    <value>左端</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="label55.Text" xml:space="preserve">
+    <value>上端</value>
+  </data>
+  <data name="label54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>メッセージレイヤの位置設定</value>
+  </data>
+  <data name="numericUpDown35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="numericUpDown34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="numericUpDown33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="numericUpDown32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 118</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label49.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 88</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 60</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 33</value>
+  </data>
+  <data name="label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label52.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="checkBox40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="checkBox40.Text" xml:space="preserve">
+    <value>マウスでドラッグ可能</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>左右上下マージン</value>
+  </data>
+  <data name="label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label82.Text" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label81.Text" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="numericUpDown42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 19</value>
+  </data>
+  <data name="textBox39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 19</value>
+  </data>
+  <data name="textBox38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>メッセージ枠様式設定</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>メッセージレイヤ設定</value>
+  </data>
+  <data name="numericUpDown44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="label63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label63.Text" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="numericUpDown43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="label64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 57</value>
+  </data>
+  <data name="label64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>表示オフセット</value>
+  </data>
+  <data name="groupBox31.Text" xml:space="preserve">
+    <value>ルビ設定</value>
+  </data>
+  <data name="label57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 29</value>
+  </data>
+  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label57.Text" xml:space="preserve">
+    <value>右文字マージン</value>
+  </data>
+  <data name="numericUpDown41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="numericUpDown7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="checkBox35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 154</value>
+  </data>
+  <data name="checkBox35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="checkBox35.Text" xml:space="preserve">
+    <value>自動改行・改ページ</value>
+  </data>
+  <data name="label60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 119</value>
+  </data>
+  <data name="label60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label60.Text" xml:space="preserve">
+    <value>字間</value>
+  </data>
+  <data name="checkBox39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="checkBox39.Text" xml:space="preserve">
+    <value>縦書きモード</value>
+  </data>
+  <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 59</value>
+  </data>
+  <data name="label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>文字の大きさ</value>
+  </data>
+  <data name="numericUpDown40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 88</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>行間</value>
+  </data>
+  <data name="numericUpDown8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="groupBox30.Text" xml:space="preserve">
+    <value>様式</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 16</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>レンダリング済みフォントを使用する</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>レンダリング済みフォント</value>
+  </data>
+  <data name="label61.Text" xml:space="preserve">
+    <value>書体</value>
+  </data>
+  <data name="checkBox36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="checkBox36.Text" xml:space="preserve">
+    <value>ボールド</value>
+  </data>
+  <data name="checkBox48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="checkBox48.Text" xml:space="preserve">
+    <value>縁取り　色</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label62.Text" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 19</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 19</value>
+  </data>
+  <data name="checkBox37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="checkBox37.Text" xml:space="preserve">
+    <value>アンチエイリアス</value>
+  </data>
+  <data name="checkBox47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="checkBox47.Text" xml:space="preserve">
+    <value>影　　　色</value>
+  </data>
+  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 19</value>
+  </data>
+  <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 19</value>
+  </data>
+  <data name="groupBox24.Text" xml:space="preserve">
+    <value>デフォルトフォント</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>フォント設定</value>
+  </data>
+  <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 12</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>CDDA再生ボリュームラベル</value>
+  </data>
+  <data name="textBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 19</value>
+  </data>
+  <data name="textBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 19</value>
+  </data>
+  <data name="label75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 12</value>
+  </data>
+  <data name="label75.Text" xml:space="preserve">
+    <value>MIDI 再生開始前に送るメッセージ</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 12</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>ビデオオブジェクトの数</value>
+  </data>
+  <data name="numericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 61</value>
+  </data>
+  <data name="numericUpDown4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>前景レイヤの数</value>
+  </data>
+  <data name="numericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 27</value>
+  </data>
+  <data name="numericUpDown3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>レイヤ設定</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>SEバッファの数</value>
+  </data>
+  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 86</value>
+  </data>
+  <data name="numericUpDown2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 19</value>
+  </data>
+  <data name="label73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="label73.Text" xml:space="preserve">
+    <value>BGM再生メディア</value>
+  </data>
+  <data name="checkBox41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="checkBox41.Text" xml:space="preserve">
+    <value>クロスフェードを行う</value>
+  </data>
+  <data name="groupBox32.Text" xml:space="preserve">
+    <value>音声设定</value>
+  </data>
+  <data name="numericUpDown28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="numericUpDown24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 19</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>前景レイヤの水平位置定義</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>グラフィクスと音声設定</value>
+  </data>
+  <data name="label76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label76.Text" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="textBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="textBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="checkBox42.Text" xml:space="preserve">
+    <value>太字</value>
+  </data>
+  <data name="checkBox45.Text" xml:space="preserve">
+    <value>自動改行</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label77.Text" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="checkBox44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 16</value>
+  </data>
+  <data name="checkBox44.Text" xml:space="preserve">
+    <value>ページ単位での閲覧を行う</value>
+  </data>
+  <data name="numericUpDown50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 83</value>
+  </data>
+  <data name="numericUpDown50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="checkBox43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="checkBox43.Text" xml:space="preserve">
+    <value>縦書き</value>
+  </data>
+  <data name="numericUpDown51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 110</value>
+  </data>
+  <data name="numericUpDown51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>ラインの高さ</value>
+  </data>
+  <data name="groupBox34.Text" xml:space="preserve">
+    <value>文字様式</value>
+  </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="label79.Text" xml:space="preserve">
+    <value>行単位</value>
+  </data>
+  <data name="checkBox46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 16</value>
+  </data>
+  <data name="checkBox46.Text" xml:space="preserve">
+    <value>栞にメッセージ履歴を保存する</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label80.Text" xml:space="preserve">
+    <value>ページ単位</value>
+  </data>
+  <data name="numericUpDown52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 55</value>
+  </data>
+  <data name="numericUpDown52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 19</value>
+  </data>
+  <data name="numericUpDown53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 28</value>
+  </data>
+  <data name="numericUpDown53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 19</value>
+  </data>
+  <data name="groupBox26.Text" xml:space="preserve">
+    <value>履歴保持最大数</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>メッセージ履歴設定</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS Gothic, 9pt</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 522</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="button17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 522</value>
+  </data>
+  <data name="button17.Text" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 12</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>編集したいConfig.tjsをこのウィンドウにドラッグしてください</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS Gothic, 9pt</value>
+  </data>
+</root>
