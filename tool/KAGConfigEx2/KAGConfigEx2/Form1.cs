@@ -1849,8 +1849,8 @@ namespace KAGConfigEx2
 
             //缩略图格式
             ArrayList al = new ArrayList();
-            al.Add(new TextAndValue("24位色位图", "24"));
-            al.Add(new TextAndValue("256色位图", "8"));
+            al.Add(new TextAndValue(Strings.Color_TwentyFourBit, "24"));
+            al.Add(new TextAndValue(Strings.Color_EightBit, "8"));
 
             comboBox6.DataSource = al;
             comboBox6.DisplayMember = "DisplayText";
@@ -1858,9 +1858,9 @@ namespace KAGConfigEx2
             
             //档案格式
             ArrayList a2 = new ArrayList();
-            a2.Add(new TextAndValue("普通", ""));
-            a2.Add(new TextAndValue("压缩", "z"));
-            a2.Add(new TextAndValue("加密", "c"));
+            a2.Add(new TextAndValue(Strings.Save_Normal, ""));
+            a2.Add(new TextAndValue(Strings.Save_Compressed, "z"));
+            a2.Add(new TextAndValue(Strings.Save_Encrypted, "c"));
 
             comboBox1.DataSource = a2;
             comboBox1.DisplayMember = "DisplayText";
@@ -1868,9 +1868,9 @@ namespace KAGConfigEx2
             
             //通过记录模式
             ArrayList a3 = new ArrayList();
-            a3.Add(new TextAndValue("手动记录", "0"));
-            a3.Add(new TextAndValue("可存档标签处记录", "1"));
-            a3.Add(new TextAndValue("选项分支时记录", "2"));
+            a3.Add(new TextAndValue(Strings.HistRecord_Manually, "0"));
+            a3.Add(new TextAndValue(Strings.HistRecord_AtLabels, "1"));
+            a3.Add(new TextAndValue(Strings.HistRecord_AtSelection, "2"));
 
             comboBox2.DataSource = a3;
             comboBox2.DisplayMember = "DisplayText";
@@ -1878,8 +1878,8 @@ namespace KAGConfigEx2
             
             //自动标签模式
             ArrayList a4 = new ArrayList();
-            a4.Add(new TextAndValue("临时标签模式", "0"));
-            a4.Add(new TextAndValue("行号模式(推荐)", "1"));
+            a4.Add(new TextAndValue(Strings.AutoLabel_TempLabel, "0"));
+            a4.Add(new TextAndValue(Strings.AutoLabel_LineNumber, "1"));
 
             comboBox3.DataSource = a4;
             comboBox3.DisplayMember = "DisplayText";
@@ -1887,8 +1887,8 @@ namespace KAGConfigEx2
             
             //对话框显示模式
             ArrayList a5 = new ArrayList();
-            a5.Add(new TextAndValue("兼容模式", "ltAlpha"));
-            a5.Add(new TextAndValue("特殊模式", "ltAddAlpha"));
+            a5.Add(new TextAndValue(Strings.Message_ltAlpha, "ltAlpha"));
+            a5.Add(new TextAndValue(Strings.Message_ltAddAlpha, "ltAddAlpha"));
 
             comboBox4.DataSource = a5;
             comboBox4.DisplayMember = "DisplayText";
@@ -1896,9 +1896,9 @@ namespace KAGConfigEx2
 
             //音频格式
             ArrayList a6 = new ArrayList();
-            a6.Add(new TextAndValue("波形文件", "Wave"));
-            a6.Add(new TextAndValue("MIDI文件", "MIDI"));
-            a6.Add(new TextAndValue("CD音轨", "CDDA"));
+            a6.Add(new TextAndValue(Strings.BGM_Wave, "Wave"));
+            a6.Add(new TextAndValue(Strings.BGM_MIDI, "MIDI"));
+            a6.Add(new TextAndValue(Strings.BGM_CDDA, "CDDA"));
             comboBox5.DataSource = a6;
             comboBox5.DisplayMember = "DisplayText";
             comboBox5.ValueMember = "RealValue";
@@ -1936,7 +1936,7 @@ namespace KAGConfigEx2
         private void button2_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = Strings.FileFilter_MouseCursor;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1946,7 +1946,7 @@ namespace KAGConfigEx2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = Strings.FileFilter_MouseCursor;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1957,7 +1957,7 @@ namespace KAGConfigEx2
         private void button4_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = Strings.FileFilter_MouseCursor;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1968,7 +1968,7 @@ namespace KAGConfigEx2
         private void button5_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "鼠标指针   (*.CUR;*.ANI)|*.CUR;*.ANI";
+            openFileDialog1.Filter = Strings.FileFilter_MouseCursor;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1980,7 +1980,7 @@ namespace KAGConfigEx2
         private void button6_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "所有文件   (*.*)|*.*";
+            openFileDialog1.Filter = Strings.FileFilter_AllFiles;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -1992,7 +1992,7 @@ namespace KAGConfigEx2
         private void button7_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "图像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
+            openFileDialog1.Filter = Strings.FileFilter_Images;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -2003,7 +2003,7 @@ namespace KAGConfigEx2
         private void button13_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "图像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
+            openFileDialog1.Filter = Strings.FileFilter_Images;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -2014,7 +2014,7 @@ namespace KAGConfigEx2
         private void button14_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "图像文件   (*.BMP;*.JPG;*.PNG;*.TLG)|*.BMP;*.JPG;*.PNG;*.TLG";
+            openFileDialog1.Filter = Strings.FileFilter_Images;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -2026,7 +2026,7 @@ namespace KAGConfigEx2
         private void button12_Click(object sender, EventArgs e)
         {
             openFileDialog1.FileName = "";
-            openFileDialog1.Filter = "字体图形文件   (*.TFT)|*.TFT";
+            openFileDialog1.Filter = Strings.FileFilter_PreRenderedFonts;
             //返回
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -2233,6 +2233,11 @@ namespace KAGConfigEx2
 
                 defaultEdgeColor = "0x" + r + g + b;
             }
+        }
+
+        private void groupBox8_Enter(object sender, EventArgs e)
+        {
+
         }
 
 
