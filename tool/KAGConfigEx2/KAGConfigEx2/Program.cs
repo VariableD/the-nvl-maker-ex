@@ -17,8 +17,8 @@ namespace KAGConfigEx2
         {
 
             //Uncomment these to test Japanese Localization
-            //Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("ja-JP");
-            //Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ja-JP");
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("ja-JP");
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ja-JP");
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
